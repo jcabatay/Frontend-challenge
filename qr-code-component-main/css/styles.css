@@ -1,0 +1,40 @@
+
+.container{
+    display: flex;        
+    justify-content: center;        
+    align-items: center;    
+}
+
+.card {    
+    border-radius: 10px;    
+    padding: 16px;
+    width: 375px;
+    background-color: white;        
+    
+  }  
+  
+  .header_message {    
+    text-align: center;        
+  }
+
+  .message {    
+    text-align: center;        
+    font-size: large;
+  }
+
+  img{
+    border-radius: 10px 10px 10px 10px;
+    
+  }
+
+  @media(max-width:400px){
+    .container{
+      flex: 50%;
+      max-width: 50%;   
+    }
+  }
+
+  body{
+    background-color: hsl(212, 45%, 89%);
+    margin: 180px;
+  }
