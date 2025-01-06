@@ -1,40 +1,87 @@
 
-.container{
-    display: flex;        
-    justify-content: center;        
-    align-items: center;    
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 70.5%;  
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(212, 45%, 89%);
 }
 
-.card {    
-    border-radius: 10px;    
-    padding: 16px;
-    width: 375px;
-    background-color: white;        
-    
-  }  
+.card {  
+  border-radius: 20px;    
+  padding: 16px;
+  background-color: white;       
+  width: 300px; 
+  height: 48%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 245px;
   
-  .header_message {    
-    text-align: center;        
-  }
+}  
 
-  .message {    
-    text-align: center;        
-    font-size: large;
-  }
+.content{
+  background-color: rgb(121, 148, 235);
+  border-radius: 10px;
+  /* padding: 20px; */
+  height: 55%;
+}
 
-  img{
-    border-radius: 10px 10px 10px 10px;
-    
-  }
+div.content img{
+  width: 100%;
+  height: auto;
+}
 
-  @media(max-width:400px){
-    .container{
-      flex: 50%;
-      max-width: 50%;   
-    }
-  }
+.header_message {      
+  text-align: center;  
+  padding-top: 60px;  
+  padding-left: 2px;
+  padding-right: 2px;  
+  font-size:1.4em;  
+  
+  /* font-size: 15px; */
 
-  body{
-    background-color: hsl(212, 45%, 89%);
-    margin: 180px;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  
+}
+
+.message {    
+  text-align: center;          
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  padding-left: 8px;
+  padding-right: 8px;  
+  /* padding-top: 10px; */
+  
+}
+
+img{
+  border-radius: 10px 10px 10px 10px;  
+  
+}
+
+@media(max-width:400px){
+  .container{
+    flex: 50%;
+    max-width: 50%;   
   }
+}
+
+body,html{
+  background-color: hsl(0, 0%, 1%);
+  height: 100%;
+  margin: 0;
+  
+  
+}
+
+p{
+  font-size: 16px;  
+  color: hsl(216, 15%, 48%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
